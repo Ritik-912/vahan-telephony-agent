@@ -52,13 +52,13 @@ cd vahan-telephony-agent
 uv sync # or pip install -r requirements.txt `Python version >= 3.12`
 ```
 
-Add API Keys in `.env` file, then create account on grok, install ngrok into your device, add ngrok auth-token to your system and run the following command into seperate terminal window.
+Add API Keys in `.env` file, then create account on ngrok, install ngrok into your device, add ngrok auth-token to your system and run the following command into seperate terminal window.
 
 ```bash
 ngrok http http://localhost:8080 # port value is dependent on which our app is listening
 ```
 
-Then command terminal app will be running that contains and url ending with `ngrok.app`, Paste the url in `main.py` for the value of *`PUBLIC_URL`*.
+Then command terminal app will be running that shows an url ending with `ngrok.app`, Paste the url in `main.py` as the value of *`PUBLIC_URL`*.
 Now in the same terminal in which performed git cloning and uv sync, just run the `main.py`
 
 ```bash
