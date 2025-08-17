@@ -1,5 +1,5 @@
 [project]
-name = "job-intent-agent"
+name = "vahan-telephony-agent"
 version = "0.1.0"
 description = "Telephony bot agent for storing user intent on working as delivery partner, availability of driving license by calling them."
 readme = "README.md"
