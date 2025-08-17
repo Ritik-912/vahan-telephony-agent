@@ -1,0 +1,14 @@
+[project]
+name = "job-intent-agent"
+version = "0.1.0"
+description = "Telephony bot agent for storing user intent on working as delivery partner, availability of driving license by calling them."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "pipecat-ai-flows>=0.0.18",
+    "pipecat-ai[deepgram,elevenlabs,openai,silero]>=0.0.80",
+    "plivo>=4.59.2",
+    "python-dotenv>=1.1.1",
+    "uvicorn[standard]>=0.35.0",
+]
